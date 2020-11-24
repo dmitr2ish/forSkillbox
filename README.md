@@ -1,10 +1,10 @@
 # forSkillbox
 
-Используемые технологии:
-
-Java 11
-Maven
-Spring boot 2.4.0
+Используемые технологии:  
+  
+Java 11  
+Maven  
+Spring boot 2.4.0  
 MySql 8.0 (HSQL по умолчанию)
 Bootstrap
 Html5\CSS
