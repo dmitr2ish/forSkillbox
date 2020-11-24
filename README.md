@@ -24,12 +24,20 @@ Thymeleaf
   
 для Windows  
   
-Запуск из командной строки из корневой папки  
+Через раннер спрингбут:  
+1 - скачать zip проекта и разархивировать его;  
+2 - запустить из командной строки из корневой папки:  
 mvnw spring-boot:run  
+3 - ждем сообщения completed initialization и переходим по адресу http://localhost:8080/  
   
 для Windows  
   
-Создание и запуск jar файла  
+Через запуск jar:  
+1 - скачать zip проекта и разархивировать его;  
+2 - запустить из командной строки из корневой папки:  
 mvnw clean package  
 cd target  
-java -jar appBlogs-0.0.1-SNAPSHOT.jar  
+java -jar forSkillbox-0.0.1-SNAPSHOT.jar  
+3 - ждем сообщения completed initialization и переходим по адресу http://localhost:8080/  
+  
+Чтобы остановить приложение в командной строке нажмите Ctrl+C и выбирите ответ "Да"
